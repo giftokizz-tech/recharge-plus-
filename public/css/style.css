@@ -1,0 +1,79 @@
+/* Custom styles for Recharge Plus */
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 30px !important;
+    width: 70px !important;
+  }
+
+  .hero-section .display-4 {
+    font-size: 2rem;
+  }
+
+  .hero-section .lead {
+    font-size: 1rem;
+  }
+
+  .hero-section .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .hero-device-image {
+    max-width: 200px;
+    margin-top: 2rem;
+  }
+
+  .features .card,
+  .services .card {
+    margin-bottom: 1rem;
+  }
+
+  .networks .card {
+    margin-bottom: 1rem;
+  }
+
+  .cta-section .btn {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section .display-4 {
+    font-size: 1.8rem;
+  }
+
+  .hero-section .lead {
+    font-size: 0.9rem;
+  }
+
+  .hero-device-image {
+    max-width: 150px;
+  }
+
+  .footer .col-lg-4 {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Ensure hamburger menu works */
+.navbar-toggler {
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Background image sizing */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
